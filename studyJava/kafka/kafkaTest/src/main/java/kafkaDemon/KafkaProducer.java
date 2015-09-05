@@ -12,7 +12,7 @@ public class KafkaProducer extends Thread {
 	private final Properties props = new Properties();
 	
 	public KafkaProducer(String topic) {
-		props.put("serializer.class", "kafka.serializer.StringEncoder");
+		props.put("serializer.class", "kafka.serializer.StringEncoder");	//配置value的序列化
 		props.put("metadata.broker.list", "10.77.96.122:9092");
 		producer = new Producer<Integer, String>(new ProducerConfig(props));
 		this.topic = topic;
@@ -28,7 +28,7 @@ public class KafkaProducer extends Thread {
 			messageNo++;
 			
 			try {
-				sleep(30000);
+				sleep(3000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
