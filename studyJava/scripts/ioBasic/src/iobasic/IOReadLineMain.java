@@ -1,4 +1,4 @@
-package ioBasic;
+package iobasic;
 
 import java.io.*;
 
