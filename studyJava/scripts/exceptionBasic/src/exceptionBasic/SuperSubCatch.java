@@ -7,8 +7,8 @@ public class SuperSubCatch {
 			int b = 22/a;
 		} catch (Exception e) {
 			System.out.println("Super exception");
-		} catch (ArithmeticException e) {
-			System.out.println("Sub exception ArithmeticException");
+//		} catch (ArithmeticException e) {
+//			System.out.println("Sub exception ArithmeticException");
 		}
 	}
 }

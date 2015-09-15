@@ -1,4 +1,4 @@
-package urlBasic;
+package urlbasic;
 
 import java.net.*;
 import java.io.*;
@@ -7,7 +7,7 @@ import java.util.Date;
 public class URLConnectionMain {
 	public static void main(String[] args) throws Exception {
 		int c;
-		URL hp = new URL("http://221.179.193.178:8831");
+		URL hp = new URL("http://www.baidu.com");
 		URLConnection hpCon = hp.openConnection();
 		
 		System.out.println("Date: "          + new Date(hpCon.getDate()));

@@ -1,10 +1,12 @@
-package inetAddress;
+package inetdddress;
 
 //import java.net.InetAddress;
-import java.net.*;
+//import java.net.*;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 public class InetAddressTestMain {
-	public static void main(String args[]) throws UnknownHostException {	//如果import的不是net.*,而是net.InetAddress，则UnknownHostException无法resolved
+	public static void main(String args[]) throws UnknownHostException {	
 		InetAddress Address = InetAddress.getLocalHost();
 		System.out.println(Address);
 		

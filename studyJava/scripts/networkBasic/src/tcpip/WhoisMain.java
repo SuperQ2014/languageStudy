@@ -1,4 +1,4 @@
-package tcpIP;
+package tcpip;
 
 import java.net.*;
 import java.io.*;
@@ -7,7 +7,7 @@ public class WhoisMain {
 	public static void main(String[] args) {
 		int c;
 		try {
-			Socket s = new Socket("221.179.193.178",8831);
+			Socket s = new Socket("www.baidu.com",80);
 			InputStream in = s.getInputStream();
 			OutputStream out = s.getOutputStream();
 			String str = (args.length == 0 ? "api.mobile.sina.com" : args[0]) + "\n";

@@ -1,4 +1,4 @@
-package urlBasic;
+package urlbasic;
 
 import java.net.*;
 
