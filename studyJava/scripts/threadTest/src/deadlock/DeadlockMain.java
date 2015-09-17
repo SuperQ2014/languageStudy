@@ -1,4 +1,4 @@
-package deadLock;
+package deadlock;
 
 public class DeadlockMain implements Runnable {
 	A a = new A();

@@ -1,4 +1,4 @@
-package synchronizedTest;
+package synchronizedtest;
 
 public class Caller implements Runnable {
 	String msg;

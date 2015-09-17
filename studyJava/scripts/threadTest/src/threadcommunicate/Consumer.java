@@ -1,4 +1,4 @@
-package threadCommunicate;
+package threadcommunicate;
 
 public class Consumer implements Runnable {
 	QueueClass queueClass;

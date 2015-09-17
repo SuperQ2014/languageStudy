@@ -1,4 +1,4 @@
-package threadTest;
+package threadtest;
 
 public class extendNewThread extends Thread {
 	//¹¹Ôìº¯Êı

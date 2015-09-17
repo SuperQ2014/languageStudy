@@ -1,4 +1,4 @@
-package threadTest;
+package threadtest;
 
 public class newThread implements Runnable {
 	

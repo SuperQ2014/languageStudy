@@ -1,4 +1,4 @@
-package synchronizedTest;
+package synchronizedtest;
 
 public class synchronizedMain {
 	public static void main(String[] args) {

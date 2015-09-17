@@ -1,4 +1,4 @@
-package deadLock;
+package deadlock;
 
 public class B {
 	synchronized void bar(A a) {

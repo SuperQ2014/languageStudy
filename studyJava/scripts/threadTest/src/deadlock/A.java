@@ -1,4 +1,4 @@
-package deadLock;
+package deadlock;
 
 public class A {
 	synchronized void foo(B b) {

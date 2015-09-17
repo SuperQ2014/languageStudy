@@ -1,4 +1,4 @@
-package threadCommunicate;
+package threadcommunicate;
 
 public class Producer implements Runnable {
 	QueueClass queueClass;

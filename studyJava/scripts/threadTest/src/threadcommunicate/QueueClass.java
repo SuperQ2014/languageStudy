@@ -1,4 +1,4 @@
-package threadCommunicate;
+package threadcommunicate;
 
 public class QueueClass {
 	int n;

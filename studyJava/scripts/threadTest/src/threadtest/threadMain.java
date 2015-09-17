@@ -1,4 +1,4 @@
-package threadTest;
+package threadtest;
 
 public class threadMain {
 	public static void main ( String[] args )

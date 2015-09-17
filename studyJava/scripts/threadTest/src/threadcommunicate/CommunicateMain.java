@@ -1,4 +1,4 @@
-package threadCommunicate;
+package threadcommunicate;
 
 public class CommunicateMain {
 	public static void main(String[] args) {

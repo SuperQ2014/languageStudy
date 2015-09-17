@@ -1,4 +1,4 @@
-package threadTest;
+package threadtest;
 
 public class clicker implements Runnable {
 	int click = 0;
