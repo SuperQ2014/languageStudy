@@ -1,4 +1,4 @@
-package kafkaDemon;
+package kafkademon;
 
 public class KafkaSimpleDemon {
 	public static void main(String[] args) {

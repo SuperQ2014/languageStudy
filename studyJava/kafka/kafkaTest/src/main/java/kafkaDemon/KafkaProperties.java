@@ -1,4 +1,4 @@
-package kafkaDemon;
+package kafkademon;
 
 public interface KafkaProperties {
 	final static String zkConnect            = "10.77.96.122:2181";
