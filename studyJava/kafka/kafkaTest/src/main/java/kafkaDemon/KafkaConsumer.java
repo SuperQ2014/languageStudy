@@ -1,4 +1,4 @@
-package kafkaDemon;
+package kafkademon;
 
 import java.util.HashMap;
 import java.util.List;
