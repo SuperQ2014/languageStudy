@@ -1,8 +1,8 @@
 package threadcommunicate;
 
 public class QueueClass {
-	int n;
-	boolean valueSet = false;
+	private int n;
+	private boolean valueSet = false;
 
 	synchronized int get() {
 		if (!valueSet) {
@@ -19,7 +19,7 @@ public class QueueClass {
 	}
 
 	synchronized void put(int n) {
-		if(valueSet) {
+		if (valueSet) {
 			try {
 				wait();
 			} catch (InterruptedException e) {

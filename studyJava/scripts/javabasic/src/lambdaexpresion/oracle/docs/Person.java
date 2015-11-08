@@ -14,21 +14,17 @@ public class Person {
 	
 	String name;
 	LocalDate birthday;
-    Sex gender;
+
+	Sex gender;
 	String emailAddress;
 	
 	public int getAge() {
-		return 0;
 		
+		return 0;
 	}
 	
 	public void printPerson() {
 		
-	}
-
-	public Sex getGender() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	public static List<Person> createRoster() {
@@ -36,14 +32,14 @@ public class Person {
 		return null;
 	}
 
-	public Object getEmailAddress() {
+	public Sex getGender() {
 		// TODO Auto-generated method stub
-		return emailAddress;
+		return null;
 	}
-	
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString();
+		return null;
 	}
 }

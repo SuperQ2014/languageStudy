@@ -6,16 +6,16 @@ public class DeadlockMain implements Runnable {
 	
 	DeadlockMain() {
 		Thread.currentThread().setName("MainThread");
-		Thread t = new Thread(this, "RacingThread");
-		t.start();
+		new Thread(this, "RacingThread").start();
 		
-		a.foo(b);
+		a.fooA(b);
 		System.out.println("Back in main thread");
 	}
+	
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		b.bar(a);
+		b.barB(a);
 		System.out.println("Back in other thread");
 	}
 	

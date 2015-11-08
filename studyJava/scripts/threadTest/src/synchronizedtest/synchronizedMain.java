@@ -8,11 +8,11 @@ public class synchronizedMain {
 		Caller obj3 = new Caller(target, "World");
 		
 		try {
-			obj1.t.join();
-			obj2.t.join();
-			obj3.t.join();
+			obj1.getThread().join();
+			obj2.getThread().join();
+			obj3.getThread().join();
 		} catch ( InterruptedException e ) {
-			System.out.println("Interrupted!");
+			e.getStackTrace();
 		}
 	}
 }
