@@ -14,6 +14,7 @@ public class Person {
 	
 	String name;
 	LocalDate birthday;
+
 	Sex gender;
 	String emailAddress;
 	
@@ -36,7 +37,8 @@ public class Person {
 		return null;
 	}
 
-	public Object getEmailAddress() {
+	@Override
+	public String toString() {
 		// TODO Auto-generated method stub
 		return null;
 	}

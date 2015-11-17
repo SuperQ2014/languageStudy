@@ -8,8 +8,6 @@ import java.util.function.Predicate;
 import java.lang.Iterable;
 import java.time.chrono.IsoChronology;
 
-
-
 public class RosterTest {
 
     interface CheckPerson {
@@ -211,14 +209,14 @@ public class RosterTest {
         System.out.println("Persons who are eligible for Selective Service " +
             "(with Predicate, Function, and Consumer parameters):");
 
-        processPersonsWithFunction(
+       /* processPersonsWithFunction(
             roster,
             p -> p.getGender() == Person.Sex.MALE
                 && p.getAge() >= 18
                 && p.getAge() <= 25,
             p -> p.getEmailAddress(),
             email -> System.out.println(email)
-        );
+        );*/
 
         System.out.println();
 

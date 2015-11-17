@@ -1,7 +1,7 @@
 package deadlock;
 
 public class A {
-	synchronized void foo(B b) {
+	synchronized void fooA(B b) {
 		String name = Thread.currentThread().getName();
 		System.out.println(name + " entered A.foo");
 		
@@ -9,6 +9,7 @@ public class A {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			System.out.println("A interrupted!");
+			e.getStackTrace();
 		}
 		
 		System.out.println(name + " trying to call B.last()....");
@@ -18,5 +19,4 @@ public class A {
 	synchronized void last() {
 		System.out.println("Inside A.last..");
 	}
-	
 }
