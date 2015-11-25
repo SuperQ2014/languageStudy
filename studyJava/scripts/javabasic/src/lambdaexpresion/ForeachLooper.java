@@ -10,10 +10,10 @@ public class ForeachLooper {
 		
 		System.out.println("method one:");
 		for (int number : numbers) {
-			System.out.print(number);
+			System.out.println(number);
 		}
 		
 		System.out.printf("\nmethod two:\n");
-		numbers.forEach((Integer value) -> System.out.print(value));
+		numbers.forEach((Integer value) -> System.out.println(value));
 	}
 }
