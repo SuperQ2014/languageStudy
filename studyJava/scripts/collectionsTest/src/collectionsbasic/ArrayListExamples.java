@@ -25,7 +25,7 @@ public class ArrayListExamples {
 		arrayList.add("Item4");
 		
 		//display the contents of the arrayList
-		System.out.println("The arrayList contains the following elements: " + arrayList);
+		System.out.println("The arrayList contains the following elements: " + arrayList.toString());
 		
 		//Checking index of an item
 		int pos = arrayList.indexOf("Item3");	//2
