@@ -9,8 +9,9 @@ public class EnumSetExample {
 		EnumSet<Day> days = EnumSet.allOf(Day.class);
 		
 		//Print the values of an EnumSet.
-		for (Day day: days) {
+		for (Day day : days) {
 			System.out.println(day.name());
+			System.out.println(day.ordinal());
 		}
 		System.out.println(days.size());
 		

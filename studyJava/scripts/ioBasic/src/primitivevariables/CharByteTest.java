@@ -5,13 +5,13 @@ import java.io.UnsupportedEncodingException;
 public class CharByteTest {
 
 	public static void main(String[] args) {
-		String str = "ÎÒ";
-		char char1 = 'ÎÒ';
+		String str = "aa";
+		char char1 = 'x';
 		byte[] byte1 = null;
 		byte[] byte2 = null;
 		
 		try {
-			byte1 = str.getBytes("UTF-8");			//Ä¬ÈÏ±àÂëÎª2£¬UTF-8µÄÊä³öÎª3   Ê¹ÓÃ±àÂëStringĞèÒª´¦ÀíUnsupportedEncodingException
+			byte1 = str.getBytes("UTF-8");			//Ä¬ï¿½Ï±ï¿½ï¿½ï¿½Îª2ï¿½ï¿½UTF-8ï¿½ï¿½ï¿½ï¿½ï¿½Îª3   Ê¹ï¿½Ã±ï¿½ï¿½ï¿½Stringï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½UnsupportedEncodingException
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

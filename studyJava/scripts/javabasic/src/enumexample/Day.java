@@ -9,7 +9,7 @@ public enum Day {
 	FRIDAY(6),
 	SATURDAY(7);
 	
-	private int value;
+	private final int value;
 	
 	private Day(int value) {
 		this.value = value;
